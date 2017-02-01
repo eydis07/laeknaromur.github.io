@@ -321,3 +321,9 @@ body {
   margin: -1.5% 0 0 5%;
   padding: 0;
 }
+.thumbnail-img {
+  width: 200px;
+}
+.team-section .person-title {
+  font-weight: 600;
+}
