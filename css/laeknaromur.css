@@ -287,12 +287,6 @@ ul.banner-social-buttons {
     margin-bottom: 0;
   }
 }
-footer {
-  padding: 50px 0;
-}
-footer p {
-  margin: 0;
-}
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
@@ -312,7 +306,11 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 233, 232, 0.2);
 }
-/* CUSTOM LESS */
+/* ADDED LESS */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
 .logo-img {
   width: 30px;
   height: 30px;
@@ -327,4 +325,26 @@ body {
 }
 .team-section .person-title {
   font-weight: 600;
+}
+footer {
+  padding: 25px 0 0 0;
+}
+.company-info {
+  text-align: left;
+}
+.sponsors {
+  text-align: right;
+}
+.sponsor-img {
+  height: 60px;
+}
+.sub-footer p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .sponsors {
+    text-align: left;
+  }
 }

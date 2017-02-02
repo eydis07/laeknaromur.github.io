@@ -309,13 +309,6 @@ ul.banner-social-buttons {
     }
 }
 
-footer {
-    padding: 50px 0;
-    p {
-        margin: 0;
-    }
-}
-
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
@@ -341,7 +334,12 @@ body {
 }
 
 
-/* CUSTOM LESS */
+/* ADDED LESS */
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
 
 .logo-img {
     width: 30px;
@@ -351,14 +349,34 @@ body {
     margin: -1.5% 0 0 5%;
     padding: 0;
 }
-
 .thumbnail-img {
     width: 200px;
     border-radius: 50%;
 }
-
 .team-section {
     .person-title {
         font-weight: 600;
+    }
+}
+footer {
+    padding: 25px 0 0 0;
+}
+.company-info {
+    text-align: left;
+}
+.sponsors {
+    text-align: right;
+}
+.sponsor-img {
+    height: 60px;
+}
+.sub-footer p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media(max-width:768px) {
+    .sponsors {
+        text-align: left;
     }
 }
