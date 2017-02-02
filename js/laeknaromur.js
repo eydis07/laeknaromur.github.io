@@ -1,7 +1,9 @@
 /*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * Læknarómur - Læknarómur Website v1.0 (laeknaromur.is)
+ * Copyright 2017-2017 Matthías Pétursson
+ * Licensed under Apache 2.0 (https://github.com/mattixpet/laeknaromur/blob/master/LICENSE)
+ * 
+ * Forked from Start Bootstrap's Grayscale (https://github.com/BlackrockDigital/startbootstrap-grayscale)
  */
 
 // jQuery to collapse the navbar on scroll
