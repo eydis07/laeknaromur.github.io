@@ -1,7 +1,7 @@
 /*!
- * Læknarómur - Læknarómur Website v1.0 (laeknaromur.is)
+ * Læknarómur - Læknarómur Website v1.0.0 (laeknaromur.is)
  * Copyright 2017-2017 Matthías Pétursson
- * Licensed under Apache 2.0 (https://github.com/mattixpet/laeknaromur/blob/master/LICENSE)
+ * Licensed under Apache-2.0 (https://github.com/mattixpet/laeknaromur/blob/master/LICENSE)
  * 
  * Forked from Start Bootstrap's Grayscale (https://github.com/BlackrockDigital/startbootstrap-grayscale)
  */
