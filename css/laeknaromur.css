@@ -1,14 +1,16 @@
 /*!
- * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Læknarómur - Læknarómur Website v1.0.0 (laeknaromur.is)
+ * Copyright 2017-2017 Matthías Pétursson
+ * Licensed under Apache-2.0 (https://github.com/mattixpet/laeknaromur/blob/master/LICENSE)
+ * 
+ * Forked from Start Bootstrap's Grayscale (https://github.com/BlackrockDigital/startbootstrap-grayscale)
  */
 body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: black;
+  color: #ffe9e8;
+  background-color: #9c1c6b;
 }
 html {
   width: 100%;
@@ -39,7 +41,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #e47297;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -47,21 +49,21 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #c9275b;
 }
 .light {
   font-weight: 400;
 }
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 233, 232, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffe9e8;
+  background-color: rgba(255, 233, 232, 0.2);
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:focus,
@@ -75,7 +77,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: #ffe9e8;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -83,7 +85,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 233, 232, 0.8);
   outline: none;
   background-color: transparent;
 }
@@ -96,10 +98,10 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 233, 232, 0.3);
 }
 .navbar-custom .nav li.active a:hover {
-  color: white;
+  color: #ffe9e8;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -114,7 +116,7 @@ a:focus {
   .navbar-custom.top-nav-collapse {
     padding: 0;
     background: black;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 233, 232, 0.3);
   }
 }
 .intro {
@@ -123,8 +125,8 @@ a:focus {
   height: auto;
   padding: 100px 0;
   text-align: center;
-  color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  color: #ffe9e8;
+  background: url(../img/vector-bg.png) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -158,10 +160,10 @@ a:focus {
   height: 70px;
   margin-top: 15px;
   padding: 7px 16px;
-  border: 2px solid white;
+  border: 2px solid #ffe9e8;
   border-radius: 100% !important;
   font-size: 40px;
-  color: white;
+  color: #ffe9e8;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -170,8 +172,8 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
+  color: #ffe9e8;
+  background: rgba(255, 233, 232, 0.1);
 }
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
@@ -220,12 +222,12 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+.team-section {
   width: 100%;
   padding: 50px 0;
-  color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: black;
+  color: #ffe9e8;
+  background: url(../img/vector-bg-2.png) no-repeat center center scroll;
+  background-color: #9c1c6b;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -240,7 +242,7 @@ a:focus {
   .content-section {
     padding-top: 250px;
   }
-  .download-section {
+  .team-section {
     padding: 100px 0;
   }
   #map {
@@ -258,16 +260,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #e47297;
+  color: #e47297;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #e47297;
   outline: none;
-  color: black;
-  background-color: #42DCA3;
+  color: #9c1c6b;
+  background-color: #e47297;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -287,21 +289,15 @@ ul.banner-social-buttons {
     margin-bottom: 0;
   }
 }
-footer {
-  padding: 50px 0;
-}
-footer p {
-  margin: 0;
-}
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 233, 232, 0.2);
 }
 ::selection {
   text-shadow: none;
   background: #fcfcfc;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 233, 232, 0.2);
 }
 img::selection {
   background: transparent;
@@ -310,5 +306,56 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+  webkit-tap-highlight-color: rgba(255, 233, 232, 0.2);
+}
+/* ADDED LESS */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+.logo-img {
+  width: 30px;
+  height: 30px;
+}
+.logo-all {
+  margin: -1.5% 0 0 5%;
+  padding: 0;
+}
+.lang-img {
+  width: 22px;
+  height: 18px;
+  margin-right: 7px;
+}
+.lang-all {
+  font-size: 14px;
+}
+.thumbnail-img {
+  width: 200px;
+  border-radius: 50%;
+}
+.team-section .person-title {
+  font-weight: 600;
+}
+footer {
+  padding: 25px 0 0 0;
+}
+.company-info {
+  text-align: left;
+}
+.sponsors {
+  text-align: right;
+}
+.sponsor-img {
+  height: 60px;
+  padding: 0.2%;
+}
+.sub-footer p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .sponsors {
+    text-align: left;
+  }
 }
