@@ -329,8 +329,13 @@ ul {
   font-size: 14px;
 }
 .thumbnail-img {
-  width: 200px;
+  width: 100%;
   border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .thumbnail-img {
+    width: 200px;
+  }
 }
 .team-section .person-title {
   font-weight: 600;
