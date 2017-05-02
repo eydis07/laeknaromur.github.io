@@ -220,11 +220,11 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding: 100px 0;
 }
 .team-section {
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
   color: #ffe9e8;
   background: url(../img/vector-bg-2.png) no-repeat center center scroll;
   background-color: #9c1c6b;
@@ -240,10 +240,10 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 250px 0;
   }
   .team-section {
-    padding: 100px 0;
+    padding-top: 250px 0;
   }
   #map {
     height: 400px;
